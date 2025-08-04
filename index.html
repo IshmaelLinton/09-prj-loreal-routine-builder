@@ -88,5 +88,20 @@
     <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
     <script src="secrets.js"></script>
     <script src="script.js"></script>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModalBtn">&times;</span>
+        <div id="modalProductName" class="modal-product-name"></div>
+        <img
+          id="modalProductImage"
+          class="modal-product-image"
+          src=""
+          alt="Product Image"
+        />
+        <div id="modalProductDetails" class="modal-product-details"></div>
+      </div>
+    </div>
   </body>
 </html>
